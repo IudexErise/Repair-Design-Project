@@ -35,7 +35,8 @@ body * {
     border-radius: 2px;
     outline: 0;
     border: 0;
-    padding: 22px 42px;
+    width: 207px;
+    height: 51px;
     color: white;
     text-transform: uppercase;
     font-family: Nunito Sans;
@@ -44,25 +45,18 @@ body * {
     font-size: 11px;
     line-height: 15px;
     text-align: center;
-    margin-left: 134px;
+    margin-right: 20px;
 }
 
-.button3 {
+.button2:hover {
     background: none;
-    border-radius: 2px;
     border: 2px solid white;
-    box-sizing: border-box;
-    outline: 0;
-    padding: 20px 22px;
-    color: white;
-    text-transform: uppercase;
-    font-family: Nunito Sans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    margin-left: 20px;
+    box-sizing: border-box;   
+}
+
+.button-container {
+    margin-top: 41px;
+    margin-left: 134px;
 }
 
 .logo {
@@ -160,7 +154,7 @@ body * {
 .completed-projects_list {
     list-style: none;
     display: flex;
-    margin: 0 190px 45px 626px;
+    margin: 0 190px 0 626px;
     justify-content: space-between;
 }
 
@@ -178,6 +172,15 @@ body * {
     color: #E3B873;
 }
 
+.completed-projects_container {
+    display: flex;
+    margin: 45px 134px auto 134px;
+}
+
+.completed-projects_description {
+    margin-right: 50px;
+}
+
 .title2 {
     font-family: Yeseva One;
     font-style: normal;
@@ -187,11 +190,10 @@ body * {
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
-    margin: auto 1111px auto 76px;
+    margin-top: 0;
 }
 
 .p2 {
-    margin: 28px auto 47px 76px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
