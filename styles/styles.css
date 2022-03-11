@@ -3,15 +3,16 @@ body {
     font-family: Nunito Sans, Arial, Helvetica, sans-serif;
 }
 
-body * {
-    box-sizing: border-box;
-}
-
-p {
-    margin: 0;
-}
-
 .container {
+    max-width: 1438px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
     max-width: 1438px;
     margin: 0 auto;
 }
@@ -31,34 +32,8 @@ p {
     font-size: 11px;
     line-height: 15px;
     text-align: center;
-    margin-right: 90px;
+    cursor: pointer;
     margin-left: 45px;
-    cursor: pointer;
-}
-
-.button2 {
-    background: #E3B873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    border-radius: 2px;
-    outline: 0;
-    border: 0;
-    width: 207px;
-    height: 51px;
-    color: white;
-    text-transform: uppercase;
-    font-family: Nunito Sans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.button-container {
-    margin-top: 41px;
-    margin-left: 134px;
 }
 
 .logo {
@@ -68,8 +43,8 @@ p {
     font-weight: normal;
     font-size: 11px;
     line-height: 15px;
-    margin-left: 92px;
     text-transform: uppercase;
+    min-width: 160px;
 }
 
 .telephone {
@@ -80,17 +55,11 @@ p {
     font-weight: normal;
     font-size: 11px;
     line-height: 15px;
+    min-width: 110px;
 }
 
 .header {
     background-color: black;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    height: 83px;
-    align-items: center;
 }
 
 .header-navigation {
@@ -121,6 +90,7 @@ p {
     padding-top: 194px;
     position: relative;
     z-index: -2;
+    margin: 0 auto;
 }
 
 .table::before {
@@ -146,6 +116,7 @@ p {
     z-index: 1;
     padding-right: 770px;
     padding-left: 134px;
+    padding-bottom: 19px;
 }
 
 .p1 {
@@ -155,12 +126,33 @@ p {
     font-size: 22px;
     line-height: 36px;
     color: white;
-    padding-right: 800px;
     padding-left: 134px;
+    max-width: 504px;
 }
 
 .rostov {
     color: #E3B873;
+}
+
+.button2 {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    width: 207px;
+    height: 51px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: -114px;
+    cursor: pointer;
+    margin-left: 134px;
 }
 
 .completed-projects {
@@ -245,6 +237,9 @@ p {
     font-size: 13px;
     line-height: 21px;
     color: white;
+}
+.room-design {
+    max-width: 679px;
 }
 
 .arrows {
@@ -402,6 +397,7 @@ p {
 .types-of-repair-display {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
 }
 
@@ -413,6 +409,10 @@ p {
     line-height: 25px;
     color: #363636;
     margin: 0;
+    background: white;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 13px;
 }
 
 .title4-list {
@@ -423,6 +423,7 @@ p {
     line-height: 27px;
     color: #959595;
     background: white;
+    margin: 0;
 }
 
 .types-of-repair-display-item {
@@ -431,4 +432,44 @@ p {
     max-width: 330px;
     height: 286px;
     background: white;
+    margin-top: -120px;
+    margin-left: 30px;
+}
+
+.button3 {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    width: 228px;
+    height: 54px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.building-background {
+    display: flex;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: -260px;
+}
+
+.request-steps {
+    display: flex;
+    flex-direction: column;
+    padding-top: 241px;
+}
+
+.request-steps-item {
+    margin-bottom: 114px;
 }
