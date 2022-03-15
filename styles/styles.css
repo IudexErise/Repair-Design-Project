@@ -114,7 +114,6 @@ body {
     text-transform: uppercase;
     color: white;
     z-index: 1;
-    padding-right: 770px;
     padding-left: 134px;
     padding-bottom: 19px;
 }
@@ -490,24 +489,28 @@ body {
     padding-bottom: 17px;
 }
 
-.building-background {
+.request-section {
     display: flex;
     justify-content: space-between;
+}
+
+.request-section_image {
+    position: absolute;
+    z-index: -1;
+    left: -300px;
+    top: 750px;
 }
 
 .request-steps {
     display: flex;
     flex-direction: column;
     margin-top: 150px;
-    background: url(../images/building-background.png);
-    max-width: 450px;
 }
 
 .request-steps_item {
     display: flex;
     align-items: center;
     margin-bottom: 102px;
-    max-width: 450px;
 }
 
 .circle {
@@ -582,8 +585,9 @@ body {
 
 .checkbox_container_on-black {
     display: flex;
-    margin-left: 39px;
     color: white;
+    padding-bottom: 28px;
+    padding-left: 49px;
 }
 
 .checkbox_text_on-black {
@@ -608,7 +612,8 @@ body {
     font-family: Nunito Sans;
     font-weight: normal;
     font-size: 11px;
-    line-height: 15px;
+    line-height: 21px;
     text-align: center;
     cursor: pointer;
+    margin-left: 244px;
 }
