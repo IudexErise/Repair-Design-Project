@@ -760,5 +760,24 @@ body {
     text-align: center;
     justify-content: center;
     color: black;
-    margin-bottom: 39px;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 54px;
+    margin: 39px 102px 131px 102px;
+}
+
+.reviews_item {
+    padding: 11px 32px 63px 20px;
+}
+
+.reviews_item_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
 }
