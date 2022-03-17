@@ -781,3 +781,58 @@ body {
     line-height: 180%;
     color: #959595;
 }
+
+.reviews_item_headline {
+    display: flex;
+    align-items: center;
+}
+
+.client-photo {
+    width: 76px;
+    height: 76px;
+}
+
+.button5 {
+    display: flex;
+    width: 135px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+    align-content: center;
+    border: none;
+    border-right: 0.75px solid white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button6 {
+    display: flex;
+    width: 158px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+    align-content: center;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.double-button_container {
+   display: flex; 
+}
