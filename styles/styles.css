@@ -588,7 +588,6 @@ body {
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
     margin-left: 49px;
-    margin-right: 49px;
 }
 
 .form-submit_input_on-black {
@@ -596,8 +595,8 @@ body {
     border-style: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     width: 408px;
-    margin-left: 49px;
     color: white;
+    margin-left: 49px;
 }
 
 .form-submit_input_on-black::placeholder {
@@ -664,7 +663,6 @@ body {
 }
 
 .repair-styles {
-    display: flex;
     position: relative; 
     background-image: url(../images/styles-background.jpg);
     background-size: cover;
@@ -694,6 +692,7 @@ body {
     flex-direction: column;
     padding-right: 189px;
     align-content: space-between;
+    padding-left: 50px;
 }
 
 .repair-styles_list {
@@ -835,4 +834,114 @@ body {
 
 .double-button_container {
    display: flex; 
+}
+
+.questions-and-map {
+    display: flex;
+    position: relative;
+}
+
+.background {
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    top: -800px;
+    right: 200px;
+}
+
+.questions_form {
+    display: flex;
+    width: 883px;
+    height: 445px;
+    background-color: black;
+    flex-direction: column;
+}
+
+.questions-form_headline {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 34px;
+    margin-bottom: 29px;
+}
+
+.questions_form_contact-information {
+    display: grid;
+    grid-template-columns: repeat(2, 231px);
+    margin-left: 181px;
+    column-gap: 58px;
+}
+
+.questions_form_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.questions_form_input {
+    background-color: black;
+    border-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    width: 231px;
+    color: white;
+}
+
+.questions_form_input_question {
+    background-color: black;
+    border-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    width: 520px;
+    color: white;
+}
+
+.questions_form_input::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.questions_form_input_question::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.checkbox_container_question {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 56px;
+}
+
+.button3_question-form {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    width: 200px;
+    height: 51px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 341px;
 }
