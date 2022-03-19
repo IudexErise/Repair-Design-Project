@@ -4,8 +4,9 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 
 .header_content {
@@ -13,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 83px;
-    max-width: 1438px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -845,12 +846,15 @@ body {
     display: flex;
     position: absolute;
     z-index: -2;
-    top: -800px;
+    top: -600px;
     right: 200px;
 }
 
 .questions_form {
     display: flex;
+    position: absolute;
+    top: -50px;
+    left: 270px;
     width: 883px;
     height: 445px;
     background-color: black;
@@ -944,4 +948,32 @@ body {
     text-align: center;
     cursor: pointer;
     margin-left: 341px;
+}
+
+.map {
+    background-image: url(../images/background-map.jpg);
+    background-size: cover;
+    height: 953px;
+    position: relative;
+    z-index: -2;   
+    margin-top: 300px;
+}
+
+.map::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: -1;
+}
+
+.address {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 460px;
+    text-align: center;
 }
