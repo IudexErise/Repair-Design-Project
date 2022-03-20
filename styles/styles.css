@@ -750,6 +750,10 @@ body {
     margin-top: -360px;
 }
 
+.our-clients {
+    position: relative;
+}
+
 .our-clients_text {
     display: flex;
     font-family: 'Nunito Sans';
@@ -837,6 +841,11 @@ body {
    display: flex; 
 }
 
+.questions {
+    display: flex;
+    position: relative;
+}
+
 .questions-and-map {
     display: flex;
     position: relative;
@@ -846,15 +855,15 @@ body {
     display: flex;
     position: absolute;
     z-index: -2;
-    top: -600px;
+    top: -500px;
     right: 200px;
 }
 
 .questions_form {
     display: flex;
     position: absolute;
-    top: -50px;
-    left: 270px;
+    top: 0;
+    left: 288px;
     width: 883px;
     height: 445px;
     background-color: black;
@@ -972,8 +981,21 @@ body {
 
 .address {
     display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin-bottom: 26px;
+}
+
+.contact-icons {
+    display: grid;
+    justify-content: center;
+    column-gap: 15px;
+    grid-template-columns: repeat(2, 30px);
+}
+
+.google-map {
+    display: flex;
     position: absolute;
-    top: 300px;
-    left: 460px;
-    text-align: center;
+    left: 255px;
+    top: 422px;
 }
