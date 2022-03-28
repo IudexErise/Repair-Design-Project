@@ -6,8 +6,7 @@ body {
 .container {
     width: 1440px;
     margin: 0 auto;
-    position: relative;
-}
+}  
 
 .header_content {
     display: flex;
@@ -116,6 +115,7 @@ body {
     z-index: 1;
     padding-left: 134px;
     padding-bottom: 19px;
+    max-width: 534px;
 }
 
 .p1 {
@@ -134,6 +134,7 @@ body {
 }
 
 .button_container {
+    display: flex;
     margin-left: 134px;
     margin-top: 41px;
 }
@@ -200,6 +201,10 @@ body {
     margin-right: 136px;
 }
 
+.room-design_mobile {
+    display: none;
+}
+
 .title2 {
     font-family: Yeseva One;
     font-style: normal;
@@ -212,7 +217,7 @@ body {
     margin-top: 0;
 }
 
-.title2-content {
+.title2_content {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -306,8 +311,8 @@ body {
 
 .button-play {
     background: url(../images/play-button.svg) center;
-    height: 100px;
-    width: 100px;
+    height: 85px;
+    width: 85px;
     border: none;
     position: absolute;
     top: 174px;
@@ -315,6 +320,7 @@ body {
     left: 366px;
     right: 366px;
     cursor: pointer;
+    border-radius: 60%;
 }
 
 .line {
@@ -883,7 +889,7 @@ body {
     display: flex;
     position: absolute;
     top: 0;
-    left: 288px;
+    margin-left: 288px;
     width: 883px;
     height: 445px;
     background-color: black;
@@ -1018,6 +1024,6 @@ body {
 .google-map {
     display: flex;
     position: absolute;
-    left: 255px;
     top: 422px;
+    margin-left: 255px;
 }
