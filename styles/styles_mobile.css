@@ -230,6 +230,25 @@
         line-height: 23px;
     }
 
+    .mobile-flex-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -120px;
+    }
+
+    .form-submit_headline {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        padding-top: 170px;
+    }
+
     .button3 {
         width: auto;
         margin-right: 10px;
