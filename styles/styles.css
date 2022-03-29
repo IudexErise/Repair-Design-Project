@@ -231,6 +231,10 @@ body {
     margin-bottom: 47px;
 }
 
+.mobile-carousel_arrows {
+    display: none;
+}
+
 .completed-projects_display_columns {
     display: grid;
     grid-template-columns: minmax(auto, 190px) auto;
@@ -324,7 +328,6 @@ body {
     left: 366px;
     right: 366px;
     cursor: pointer;
-    border-radius: 100%;
 }
 
 .button-play-mobile {

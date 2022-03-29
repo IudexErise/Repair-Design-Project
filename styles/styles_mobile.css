@@ -14,6 +14,10 @@
         display: none;
     }
 
+    .table {
+        height: 476px;
+    }
+
     .title {
         padding-left: 10px;
         font-size: 23px;
@@ -111,6 +115,7 @@
         border: none;
         border-radius: 50%;
         margin-left: 10px;
+        cursor: pointer;
     }
 
     .arrow-right { 
@@ -120,6 +125,7 @@
         border: none;
         border-radius: 50%;
         margin-right: 10px;
+        cursor: pointer;
     }
 
     .arrows {
@@ -160,12 +166,13 @@
 
     .button-play-mobile {
         display: block;
-        background: url(../images/play-button-mobile.svg) center;
+        background: url(../images/play-button.svg) center;
         height: 40px;
         width: 40px;
         border: none;
         position: absolute;
-        top: 50%;
+        top: 40%;
+        cursor: pointer;
     }
 
     .online-control_text {
@@ -197,6 +204,8 @@
     .form-submit_input {
         background-color: black;
         color: white;
+        border-bottom: 1px solid rgba(54, 54, 54);
+        width: 95vw;
     }
 
     .form-submit_input::placeholder {
