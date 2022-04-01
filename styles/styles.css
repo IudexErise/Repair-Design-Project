@@ -679,7 +679,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 241px;
+    margin-bottom: 150px;
     margin-right: 320px;
 }
 
@@ -896,12 +896,12 @@ body {
 .background_double-image { 
     display: flex;
     position: absolute;
-    top: 470px;
-    z-index: -2;
+    top: 220px;
+    z-index: -1;
 }
 
 .background_double-image_item {
-   width: 40vw;
+   width: 630px;
 }
 
 .questions_form {
