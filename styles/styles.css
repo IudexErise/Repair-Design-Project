@@ -350,7 +350,7 @@ body {
     font-size: 18px;
     line-height: 37px;
     color: #363636;
-    width: 681px;
+    max-width: 681px;
     text-align: center;
     margin-left: 377px;
 }
@@ -550,13 +550,14 @@ body {
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
+    position: relative;
 }
 
 .request-section_image {
     position: absolute;
     z-index: -1;
-    left: -300px;
-    top: 750px;
+    left: -550px;
+    top: 100px;
 }
 
 .request-steps {
@@ -740,6 +741,9 @@ body {
 
 .repair-styles_list_item {
     padding-bottom: 15px;
+}
+
+.repair-styles_list_item_link {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -748,15 +752,10 @@ body {
     color: white;
 }
 
-.repair-styles_list_item_first {
-    padding-bottom: 15px;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 38px;
+.repair-styles_list_item_link:hover {
     color: #E3B873;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .title2_repair-style {
@@ -768,7 +767,7 @@ body {
     text-transform: uppercase;
     color: #E3B873;
     padding-bottom: 47px;
-    padding-top: 115px;
+    padding-top: 80px;
     margin: 0;
 }
 
@@ -795,10 +794,6 @@ body {
     display: none;
 }
 
-.our-clients {
-    position: relative;
-}
-
 .our-clients_text {
     display: flex;
     font-family: 'Nunito Sans';
@@ -816,10 +811,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 54px;
     margin: 39px 102px 131px 102px;
+    position: relative;
 }
 
 .reviews_item {
     padding: 11px 32px 63px 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
 }
 
 .reviews_item_text {
@@ -896,12 +893,16 @@ body {
     position: relative;
 }
 
-.background {
+.background_double-image { 
     display: flex;
     position: absolute;
+    justify-content: center;
+    top: 120px;
     z-index: -2;
-    top: -500px;
-    right: 200px;
+}
+
+.background_double-image_item {
+   width: 1000%;
 }
 
 .questions_form {
