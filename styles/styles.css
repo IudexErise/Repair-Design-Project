@@ -896,13 +896,12 @@ body {
 .background_double-image { 
     display: flex;
     position: absolute;
-    justify-content: center;
-    top: 120px;
+    top: 470px;
     z-index: -2;
 }
 
 .background_double-image_item {
-   width: 1000%;
+   width: 40vw;
 }
 
 .questions_form {
