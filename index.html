@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/styles_mobile.css">
+    <link rel="stylesheet" href="./styles/slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
@@ -48,47 +49,37 @@
         </section>
         <section class="completed-projects" id="projects">
             <div class="container">
-              <ul class="completed-projects_list">
-                <li><a href="#" class="completed-projects_item">Rostov-on-Don, Admiral</a></li>
-                <li><a href="#" class="completed-projects_item">Sochi Thieves</a></li>
-                <li><a href="#" class="completed-projects_item">Rostov-on-Don Patriotic</a></li>
-              </ul>
-              <div class="completed-projects_display">
-                <div class="mobile-flex">
-                  <h2 class="title2">Completed projects</h2>
-                  <p class="title2_content">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction
-                  market we have made happy more than 1000 families</p>
-                  <div class="mobile-carousel">
-                  <img src="./images/img carousel 2.png" alt="room design" class="room-design_mobile"> 
-                    <div class="mobile-carousel_arrows">                                    
-                        <button class="arrow-left"></button>
-                        <button class="arrow-right"></button>
-                    </div>
-                  </div>
-                   <div class="completed-projects_display_columns">
-                      <div>
-                        <h3 class="title3">City:</h3>
-                        <span class="title3_content">Rostov-on-Don <br>LCD admiral</span>
-                      </div>
-                      <div>
-                        <h3 class="title3">Apartment area:</h3>
-                        <span class="title3_content">81m<sup>2</sup></span>
-                      </div>
-                      <div>
-                        <h3 class="title3">Repair time:</h3>
-                        <span class="title3_content">3.5 months</span>
-                      </div>
-                      <div>
-                        <h3 class="title3">Repair cost:</h3>
-                        <span class="title3_content">Upon request</span>
-                      </div>
-                      <div class="arrows">
-                        <img src="./images/arrows-nav.png" alt="navigation arrows">
-                      </div>
-                   </div>
+              <div class="completed-projects_element">
+                <div></div> 
+                <div class="slider_links">
                 </div>
                 <div>
-                  <img src="./images/img carousel 1.png" alt="дизайн комнаты" class="room-design">
+                    <h2 class="headline-three">Completed <br> projects</h2>
+                    <p class="headline-three_text">Only a small part of the work performed by our company is presented <br>
+                        on the site. For 14 years on in the construction <br>
+                        market we have made happy more than 1000 families</p>
+                    <div class="completed-projects_details">
+                        <h3 class="completed-projects_details_headline">City:</h3>
+                        <h3 class="completed-projects_details_headline">Apartment area:</h3>
+                        <span class="completed-projects_details_text" id="location">Rostov-on-Don <br> LCD admiral</span>
+                        <span class="completed-projects_details_text" id="area">81m2</span>
+                    </div>
+                    <div class="completed-projects_details">
+                        <h3 class="completed-projects_details_headline">Repair time:</h3>
+                        <h3 class="completed-projects_details_headline">Repair cost:</h3>
+                        <span class="completed-projects_details_text" id="time">3.5 months</span>
+                        <span class="completed-projects_details_text">Upon request</span>
+                    </div>
+                    <div class="slider">
+                        <div class="slider_arrows">
+                            <div class="slider_arrow left"><img src="./images/slider-arrow_left.svg"></div>
+                            <div class="slider_dots"></div>
+                            <div class="slider_arrow right"><img src="./images/slider-arrow_right.svg"></div>
+                          </div>                    
+                    </div>
+                </div>
+                <div>
+                    <div class="slider_images"></div>
                 </div>
               </div>
             </div>       
@@ -472,6 +463,7 @@
             </div>
           </div>
         </section>
+        <script src="./scripts/slider.js"></script>
     </main>
     <footer class="footer">
       <div class="header-footer_content">
